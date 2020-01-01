@@ -1,0 +1,93 @@
+<?php
+
+return [
+    'data_rows'  => [
+        'author'           => 'Зохиогч',
+        'avatar'           => 'Зураг',
+        'body'             => 'Их бие',
+        'category'         => 'Ангилал',
+        'created_at'       => 'Үүсгэгдсэн огноо',
+        'display_name'     => 'Харагдах нэр',
+        'email'            => 'Имэйл',
+        'excerpt'          => 'Шилэл',
+        'featured'         => 'Онцлох',
+        'id'               => 'ID',
+        'meta_description' => 'Мета тайлбар',
+        'meta_keywords'    => 'Мета түлхүүр үгс',
+        'name'             => 'Нэр',
+        'order'            => 'Дараалал',
+        'page_image'       => 'Хуудасны зураг',
+        'parent'           => 'Эх',
+        'password'         => 'Нууц үг',
+        'post_image'       => 'Нийтлэлийн зураг',
+        'remember_token'   => 'Санах токен',
+        'role'             => 'Үүрэг',
+        'seo_title'        => 'SEO гарчиг',
+        'slug'             => 'Slug',
+        'status'           => 'Статус',
+        'title'            => 'Гарчиг',
+        'updated_at'       => 'Шинэчлэгдсэн огноо',
+    ],
+    'data_types' => [
+        'category' => [
+            'singular' => 'Ангилал',
+            'plural'   => 'Ангилалууд',
+        ],
+        'menu'     => [
+            'singular' => 'Цэс',
+            'plural'   => 'Цэснүүд',
+        ],
+        'page'     => [
+            'singular' => 'Хуудас',
+            'plural'   => 'Хуудсууд',
+        ],
+        'post'     => [
+            'singular' => 'Нийтлэл',
+            'plural'   => 'Нийтлэлүүд',
+        ],
+        'role'     => [
+            'singular' => 'Үүрэг',
+            'plural'   => 'Үүргүүд',
+        ],
+        'user'     => [
+            'singular' => 'Хэрэглэгч',
+            'plural'   => 'Хэрэглэгчид',
+        ],
+    ],
+    'menu_items' => [
+        'bread'        => 'BREAD',
+        'categories'   => 'Ангилалууд',
+        'compass'      => 'Луужин',
+        'dashboard'    => 'Хянах самбар',
+        'database'     => 'Өгөгдлийн сан',
+        'media'        => 'Медиа',
+        'menu_builder' => 'Цэс бүтээгч',
+        'pages'        => 'Хуудсууд',
+        'posts'        => 'Нийтлэлүүд',
+        'roles'        => 'Эрхүүд',
+        'settings'     => 'Тохиргоонууд',
+        'tools'        => 'Хэрэгслүүд',
+        'users'        => 'Хэрэглэгчид',
+    ],
+    'roles'      => [
+        'admin' => 'Админ',
+        'user'  => 'Энгийн хэрэглэгч',
+    ],
+    'settings'   => [
+        'admin' => [
+            'background_image'           => 'Админ дэвсгэр зураг',
+            'description'                => 'Админ тайлбар',
+            'description_value'          => 'Voyager - т тавтай морилно уу. Laravel - ийн Админ панел',
+            'google_analytics_client_id' => 'Google Analytics хэрэглэгчийн ID (Админы хяналтын самбарт хэрэглэгдэнэ)',
+            'icon_image'                 => 'Админ зураг',
+            'loader'                     => 'Админ ачаалагч',
+            'title'                      => 'Админ гарчиг',
+        ],
+        'site'  => [
+            'description'                  => 'Сайтын дэлгэрэнгүй',
+            'google_analytics_tracking_id' => 'Google Analytics тракинг ID',
+            'logo'                         => 'Сайтын лого',
+            'title'                        => 'Сайтын гарчиг',
+        ],
+    ],
+];
